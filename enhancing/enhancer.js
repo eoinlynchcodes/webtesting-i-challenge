@@ -5,7 +5,14 @@ module.exports = {
   get,
 };
 
+const item = {
+  name: '',
+  enhancement: 10,
+  durability: 50,
+}
+
 function succeed(item) {
+
   return { ...item };
 }
 
